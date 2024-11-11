@@ -1,0 +1,118 @@
+h1{
+    text-align: center;
+    background-color: darkblue;
+    color:white;
+    font-size: 3rem;
+    border: 5px solid limegreen ;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+}
+h1::after{
+    content: "🏹";
+}
+h1:hover
+{
+    background-color: lightgoldenrodyellow;
+    color: darkred;
+}
+
+a:link{
+    color: darkred;
+}
+a:visited{
+    color: darkslategray;
+}
+a:hover{
+    color:black;
+    background-color: blueviolet;
+    font-size: 1.5rem;
+}
+
+a:active
+{
+background-color: white;
+}
+.Bahubalipic{
+
+    width: 400px;
+    height: 400px;
+ /*  filter: drop-shadow(10px 10px 10px black);*/
+
+     filter: blur(3px); 
+
+}
+.Devasenapic{
+    width: 400px;
+    height: 400px;
+    /*filter: drop-shadow(10px);*/
+     filter: invert(); 
+}
+.Bhallaladevapic{
+    width: 400px;
+    height: 400px;
+   /*filter: drop-shadow(10px);*/
+    filter: grayscale(); 
+
+}
+
+dd::selection{
+    background-color: darkslategrey;
+    color: white;
+}
+p::first-line{
+    background-color: aqua;
+    color: blueviolet;
+}
+p::first-letter{
+    color: darkred;
+    font-size: 3rem;
+}
+dt::before
+{
+    content: "⚔️";
+}
+p{
+    font-size: 1.5rem;
+}
+div{
+    font-size: 1.5rem;
+}
+
+
+
+dl{
+    height:300px;
+    overflow: auto;
+}
+.Bahubali
+{
+    background-color:lightcoral;
+    display: inline-block;
+    padding: 10px;
+    border: 5px dotted red;
+    text-align: justify;
+    width: 400px;
+    margin: 20px;
+    
+}
+.Devasena
+{
+    background-color: lightgreen;
+    border:5px dotted darkgreen;
+
+}
+.Bhallaladeva
+{
+    background-color: lightskyblue;
+    border:5px dotted darkblue;
+
+}
+body{
+    background-color: lightsalmon;
+}
+
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+
